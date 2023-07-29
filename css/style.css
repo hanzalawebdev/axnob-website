@@ -131,8 +131,8 @@ li {
 /**********************/
 .navbar {
 	font-weight: 500;
-	font-size: 0.875rem;
-	line-height: 0.875rem;
+	font-size: 1.1rem;
+	line-height: 1.1rem;
 	background-color: var(--primary);
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
@@ -143,8 +143,8 @@ li {
 }
 
 .navbar .logo-image img {
-	width: 108px;
-	height: 32px;
+	width: 160px;
+	height: 60px;
 }
 
 .navbar .logo-text {
@@ -161,6 +161,7 @@ li {
 	bottom: 0;
 	left: 100%;
 	width: 100%;
+/*	border: 1px solid red;*/
 	overflow-y: auto;
 	visibility: hidden;
 	padding-right: 1rem;

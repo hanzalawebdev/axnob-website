@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-
-    <!-- Webpage Title -->
-    <title>Mirko - Broadband Company</title>
+	<meta charset="utf-8">
+    <title>AXNOB - Secure, Develop, Progress</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Cyber Security Services" name="description">
+	<meta property="og:image" content="https://axnob.com/assets/images/fav.png">
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -29,25 +16,25 @@
     <link href="./css/style.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="icon" href="./assets/images/fav.png">
 </head>
 <body>
     
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark mb-5" aria-label="Main navigation">
         <div class="container">
 
             <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="assets/images/logo.png" alt="alternative"></a> 
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <a class="navbar-brand logo-text" href="index.html">Mirko</a>
+<!--            <a class="navbar-brand logo-text" href="index.html"><img src="assets/images/logo.png" width="20%" alt="logo"></a>-->
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
@@ -61,6 +48,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#plans">Plans</a>
                     </li>
+<!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
                         
@@ -72,10 +60,15 @@
                             <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
                         </ul>
                     </li>
+-->
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+					<li class="nav-item ms-3">
+                        <a class="nav-link btn btn-primary" href="https://wa.me/923467719518" target="_blank"><i class="fab fa-whatsapp"></i> Get in Touch</a>
+                    </li>
                 </ul>
+<!--
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
                         <a href="#your-link">
@@ -90,6 +83,7 @@
                         </a>
                     </span>
                 </span>
+-->
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -98,16 +92,16 @@
 
     <!-- Home -->
     <section class="home py-5 d-flex align-items-center" id="header">
-        <div class="container text-light py-5"  data-aos="fade-right"> 
-            <h1 class="headline">Best <span class="home_text">Broadband</span><br>Internet Plans For You</h1>
-            <p class="para para-light py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tempore accusamus quis magnam doloremque itaque ad modi, pariatur iste labore similique officiis impedit aspernatur aperiam facere architecto. Eligendi, repellendus inventore!</p>
+        <div class="container text-light py-5 mt-5"  data-aos="fade-right"> 
+            <h1 class="headline mt-3">Best <span class="home_text">Security</span><br>Standards For You</h1>
+            <p class="para para-light py-3">Enhance your digital resilience with Axnob's cutting-edge Cyber Security services. We offer comprehensive solutions, including penetration testing, threat assessment, and data protection, safeguarding your business from evolving cyber threats.</p>
             <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
-                <p>Lorem ipsum dolor sit amet.</p>  
+                <p class="p-2"><i class="fas fa-shield-virus fa-lg"></i></p>
+                <p>Vulnerability Assessments and Penetration Testing</p>  
             </div>
             <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-wifi fa-lg"></i></p>
-                <p>Lorem ipsum dolor sit amet.</p>  
+                <p class="p-2"><i class="fas fa-clipboard fa-lg"></i></p>
+                <p>Endpoint Protection and Anti-Malware Solutions</p>  
             </div>
             <div class="my-3">
                 <a class="btn" href="#plans">View Plans</a>
@@ -121,19 +115,20 @@
         <div class="container-fluid">  
             <div class="row text-light">
                 <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
-                    <i class="fas fa-tachometer-alt fa-3x p-2"></i>
-                    <h4 class="py-3">Download 1 GBPS</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <i class="fas fa-tools fa-3x p-2"></i>
+                    <h4 class="py-3">Cutting-Edge Technology and Tools</h4>
+                    <p class="para-light">Axnob stays at the forefront of IT advancements, employing the latest technology and tools to keep you connected with potential services.</p>
                 </div>
                 <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
-                    <i class="fas fa-clock fa-3x p-2"></i>
-                    <h4 class="py-3">99% Internet Uptime</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <i class="fas fa-users fa-3x p-2"></i>
+                    <h4 class="py-3">Experienced and Certified Professionals</h4>
+                    <p class="para-light">Our team of experts boasts years of experience and industry certifications, ensuring you receive top-notch solutions backed by the latest best practices.</p>
                 </div>
                 <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
                     <i class="fas fa-headset fa-3x p-2"></i>
-                    <h4 class="py-3">24/7 Support </h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <h4 class="py-3">24/7 Security Monitoring and Support</h4>
+<!--					Cyber threats don't rest, and neither do we-->
+                    <p class="para-light">Our dedicated IT operations center provides round-the-clock monitoring and support, offering peace of mind for your business.</p>
                 </div>
             </div>
         </div> <!-- end of container -->
