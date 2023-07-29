@@ -132,7 +132,7 @@ li {
 .navbar {
 	font-weight: 500;
 	font-size: 1.1rem;
-	line-height: 1.1rem;
+	line-height: 0.900rem;
 	background-color: var(--primary);
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
